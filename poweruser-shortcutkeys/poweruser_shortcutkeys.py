@@ -4,6 +4,7 @@
 # Version: 1.0.0
 # Copyright (C) 2025 None reserved
 # -------------------------------------------------------------
+import logging
 
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QAction, QKeySequence, QShortcut
@@ -38,6 +39,8 @@ class PowerUserShortcutKeys(mobase.IPlugin):
     def __init__(self): super().__init__()
 
     def init(self, organizer):
+
+        logging.getLogger("this").info("PowerUser shortcut keys installed.")
 
         # Create list of items (actions) added directly to main window for easy reference
 
