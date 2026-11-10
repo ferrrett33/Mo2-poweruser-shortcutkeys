@@ -1,2 +1,1 @@
-Adds some more shortcut keys to Mod Organizer 2
-beta testing soon...
+Adds some more shortcut keys to Mod Organizer 2. See full description on Nexus Mods.
